@@ -35,10 +35,10 @@ ECHO *           Heroes 3 Maps and Saves Import/Export tool           *
 ECHO *                                                                *
 ECHO ==================================================================
 SET separator=----------------------
-SET logHeaders=Date        Hour                    Filr Name
+SET logHeaders=Date        Hour                    File Name
 
 ECHO Import/Exportport between:
-ECHO 		%computername% (%intDir%) a 
+ECHO 		%computername% (%intDir%) and 
 ECHO 		SDCard/Pendrive (%extDir%)
 ECHO %separator%%separator%%separator%
 ECHO  1. Import Maps from SDCard/Pendrive to %computername%
@@ -99,7 +99,7 @@ SET listHeader=List of Maps:
 SET currentTask=Eksporting from %computername% to SDCard/Pendrive: 
 
 ECHO %separator%%separator%%separator%
-ECHO * Eksporting
+ECHO * Exporting
 ECHo * from %computername% (%srcPath%)
 ECHO * to SDcard (%destPath%)
 ECHO %separator%%separator%%separator%
@@ -114,7 +114,7 @@ SET listHeader=List of Saved Games:
 SET currentTask=Eksporting from %computername% to SDCard/Pendrive: 
 
 ECHO %separator%%separator%%separator%
-ECHO * Eksporting 
+ECHO * Exporting 
 ECHo * from %computername% (%srcPath%)
 ECHO * to SDcard (%destPath%)
 ECHO %separator%%separator%%separator%
@@ -149,7 +149,7 @@ GOTO :end
 ECHO ------------------------------ERROR-------------------------------
 ECHO !an error has occurred, check the result manually!
 ECHO %tmp_msg% 
-ECHO numer bledu: %err_code%
+ECHO error number: %err_code%
 
 :end
 ECHO ==================================================================
