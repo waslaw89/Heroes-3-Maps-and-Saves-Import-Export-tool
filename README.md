@@ -1,5 +1,5 @@
 # Heroes 3 Maps and Saves Import/Export tool
-CLI script(.bat) tool to import or export maps(.h3m) and saved games(.GM2) files between computer and external devide(as USB Pendrive or SD-Card).
+CLI script(.bat) tool to import or export maps(.h3m) and saved games(.GM2) files between computer and external devices(as USB Pendrive or SD-Card).
 =========================================
 - Tool is dedicated for Windows platform, with instaled Heroes of Mignt&Magic 3 game.
 - It must be run directly form script location(double click on script file ). If script file is on USB Pendrive, it will be working between this USB Pendrive and computer, for which this USB Pendrive is connected to.
